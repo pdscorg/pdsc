@@ -2,7 +2,34 @@
     color-scheme: light dark;
 }
 
+a:hover {
+    cursor: pointer;
+}
 
+.dark-mode {
+    background-color: rgba(27, 27, 27, 0.938);
+    color: white;
+  }
+
+heart{
+    color: #cc1616;
+}
+
+span{
+    font-size: 20px;
+	color: #1677cc;
+}
+
+.button {
+    background-color: none; /* Green */
+    border: none;
+    color: #1677cc;
+    padding: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
 
 .pdsc{
 	font-size: 40px;
@@ -37,8 +64,8 @@ body {
 }
 
 
-a, #pagination a { color: hsl(213, 53.8%, 26.0%); }
-a.current { text-decoration: none; color: hsl(213, 21.2%, 20.6%); }
+a, #pagination a { color: #1677cc; }
+a.current { text-decoration: none; color: #1677cc; }
 nav a { font-weight: bold; }
 header h1 { margin-top: 1em; margin-bottom: 0.25em; }
 header h1 a { color: #000; text-decoration: none; }
@@ -152,16 +179,80 @@ article header h2 {
 }
 
 .fab:hover{
-    border-bottom: 3px solid red;
-    color: red;
+    border-bottom: 3px solid whitesmoke;
+    color: whitesmoke;
     transition: 0.6s;
 }
 .fa:hover{
-    border-bottom: 3px solid red;
-    color: red;
+    border-bottom: 3px solid whitesmoke;
+    color: whitesmoke;
     transition: 0.6s;
 }
 @media screen and (max-width:868px ){
     body{
         overflow: auto;
     }}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+    
+    /* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+    }
+    
+    /* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+    }
+    
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+    }
+    
+    /* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    }
+    
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    }
+    
+.modal-header {
+    padding: 2px 16px;
+    background-color: #1677cc;
+    color: white;
+    }
+    
+.modal-body {padding: 2px 16px; color: black;}
+    
