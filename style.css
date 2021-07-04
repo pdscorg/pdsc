@@ -179,13 +179,13 @@ article header h2 {
 }
 
 .fab:hover{
-    border-bottom: 3px solid whitesmoke;
-    color: whitesmoke;
+    border-bottom: 3px solid #5978a8;
+    color: #5978a8;
     transition: 0.6s;
 }
 .fa:hover{
-    border-bottom: 3px solid whitesmoke;
-    color: whitesmoke;
+    border-bottom: 3px solid #5978a8;
+    color: #5978a8;
     transition: 0.6s;
 }
 @media screen and (max-width:868px ){
