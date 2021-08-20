@@ -74,7 +74,7 @@
 
 	(function init() {
 	  function getTimeRemaining(endtime) {
-	    var t = Date.parse(endtime) - Date.parse(new Date());
+	    var t = Date.parse("2021/09/10 00:00") - Date.parse(new Date());
 	    var seconds = Math.floor((t / 1000) % 60);
 	    var minutes = Math.floor((t / 1000 / 60) % 60);
 	    var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
@@ -88,7 +88,7 @@
 	    };
 	  }
 	  
-	  function initializeClock("2021/09/10 00:00"){
+	  function initializeClock(endtime){
 	  var timeinterval = setInterval(function(){
 	    var t = getTimeRemaining(endtime);
 	    document.querySelector(".days > .value").innerText=t.days;
