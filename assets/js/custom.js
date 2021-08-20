@@ -88,7 +88,7 @@
 	    };
 	  }
 	  
-	  function initializeClock(endtime){
+	  function initializeClock("2021/09/10 00:00"){
 	  var timeinterval = setInterval(function(){
 	    var t = getTimeRemaining(endtime);
 	    document.querySelector(".days > .value").innerText=t.days;
