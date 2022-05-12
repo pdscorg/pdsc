@@ -543,6 +543,15 @@
 
         $(window).scroll(function () {
           checkSection();
+	  var myVideo = document.getElementById("bg-video");
+
+	  if($(window).scrollTop() > 300 && $(window).scrollTop() < 975){
+		  if(myVideo.played.length === 0 ){
+			  myVideo.play();
+		  }else{
+			  myVideo.pause();
+		  }
+	   }
         });
     </script>
 </body>
