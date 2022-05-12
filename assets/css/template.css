@@ -626,6 +626,7 @@ section.coming-soon {
     background-size: cover;
     background-color: #172238;
     padding: 120px 0px;
+    margin-left: -20px;
 }
 
 section.coming-soon .continer .counter div {
