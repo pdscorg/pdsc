@@ -541,19 +541,10 @@
           showSection($(this).attr('href'), true);
         });
 	
-	$('#bg-video').on('ended', function(){this.playedThrough = true;});
+	$('#bg-video').on('ended', function(){this.pause()});
 
         $(window).scroll(function () {
           checkSection();
-	  var myVideo = document.getElementById("bg-video");
-
-	  if($(window).scrollTop() > 300 && $(window).scrollTop() < 975){
-		  if(!myVideo.playedThrough){
-			  myVideo.play();
-		  }else{
-			  myVideo.pause();
-		  }
-	   }
         });
     </script>
 </body>
