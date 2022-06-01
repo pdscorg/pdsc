@@ -239,7 +239,7 @@ a.menu-link { display: none; }
 .main-menu li .sub-menu {
     position: absolute;
     width: 160px;
-    background-color: #18233a;
+    background-color: #2d2d2d;
     opacity: 0;
     visibility: hidden;
     transition: all 0.5s;
@@ -304,13 +304,15 @@ a.menu-link { display: none; }
 	display: flex;
     height: 60px;
     width: 60%;
+	
     align-items: center;
 
 }
 
-scroll-to-section a 
+.scroll-to-section a 
 {
-	margin-left:7px;
+	margin-left:10px;
+	min-width:100px;
 }
     
 .main-banner {
@@ -518,7 +520,7 @@ section.why-us {
     background-color: #2D2D2D;
    
     padding-bottom: 100px;
-	border-top:2px solid #1979d6;
+	
 }
 
 #tabs {
@@ -1583,7 +1585,7 @@ footer p a:hover {
 }
 
 @media screen and (max-width: 992px) {
-  .features { background-color: #0c1228; }
+  .features { background-color: #2d2d2d; }
   .features-content { position: relative; }
   .features-post { border-left: 0 }
 }
