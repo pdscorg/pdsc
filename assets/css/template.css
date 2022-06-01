@@ -45,7 +45,7 @@ p {
 .section-heading h2:before {
     width: 1px;
     height: 100px;
-    background-color: rgba(250,250,250,0.1);
+    background-color: #1979d6;
     position: absolute;
     top: -102px;
     content: '';
@@ -62,11 +62,15 @@ p {
     letter-spacing: 0.5px;
     display: inline-block;
     padding: 15px 20px;
-    border: 2px solid rgba(250,250,250,0.1);
+    border: 2px solid #1979d6;
 }
 
 
 /* Buttons */
+.main-button {
+display:flex;
+align-items:center;
+}
 
 .main-button a {
     background-color: #1979D6;
@@ -77,7 +81,7 @@ p {
     letter-spacing: 0.5px;
     font-weight: 700;
     padding: 12px 20px;
-    display: flex;
+  
 	width:20%;
     outline: none;
 }
@@ -167,12 +171,13 @@ a.menu-link { display: none; }
 }
 
 .main-header {
-    background-color: #2D2D2D;
+    background-color: #303231;
     height: 80px;
     position: fixed;
     z-index: 12;
     width: 100%;
     top: 0;
+    filter: drop-shadow(4px 5px 10px black);
 }
 
 .main-header .logo {
@@ -325,7 +330,7 @@ a.menu-link { display: none; }
   text-align: left;
   position: absolute;
   width: 80%;
-  left: 10%;
+  left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
 }
@@ -567,22 +572,22 @@ section.why-us {
 #tabs ul .ui-tabs-active {
 }
 #tabs ul .ui-tabs-active a {
-  color: 1979d6;
+  color: #1979d6;
 }
 #tabs ul .ui-tabs-active a:after {
-  background-color: 1979d6;
+  background-color: #1979d6;
   width: 15px;
   height: 15px;
 }
 #tabs ul .ui-tabs-active a:before {
-  border-color: 1979d6;
+  border-color: #1979d6;
 }
 #tabs h4 {
     margin-top: 60px;
     font-size: 32px;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #fff;
+    color: #1979d6;
     margin-bottom: 30px;
 }
 
@@ -891,10 +896,10 @@ section.courses .owl-carousel button.active {
 /* Video */
 
 section.video {
-    background-image: url(../images/video-bg.jpg);
+    /*background-image: url(../images/video-bg.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #1979d6;
+    background-color: rgb(51,51,51);
     padding: 120px 0px;
 }
 
@@ -986,7 +991,7 @@ section.video .left-content .main-button {
 .video-item .video-caption {
     position: absolute;
     z-index: 10;
-    background-color: rgba(250,250,250,0.75);
+    background-color: rgb(51,51,51);
     height: 80px;
     width: 100%;
     padding: 27px 30px;
@@ -1478,7 +1483,7 @@ section.contact form input {
     width: 100%;
     height: 40px;
     background-color: rgba(250,250,250,0.1);
-    border-radius: 0px;
+    border-radius: 7px;
     border: none;
     outline: none;
     color: #fff;
@@ -1493,7 +1498,7 @@ section.contact form textarea {
     max-height: 280px;
     min-height: 220px;
     background-color: rgba(250,250,250,0.1);
-    border-radius: 0px;
+    border-radius: 7px;
     border: none;
     outline: none;
     color: #fff;
@@ -1520,8 +1525,9 @@ section.contact form textarea::placeholder { color: #fff; }
 section.contact form textarea::placeholder { color: #fff; }
 
 section.contact form button {
-    background-color: #f5a425;
+    background-color: #1979d6;
     color: #fff;
+	border-radius:7px;
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -1545,6 +1551,7 @@ footer p {
     padding: 25px 0px;
     color: #fff;
     font-size: 13px;
+	border-top: 1px solid rgb(204,204,204);
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 0.5px;
