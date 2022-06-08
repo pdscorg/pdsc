@@ -909,7 +909,14 @@ section.courses .owl-carousel button.active {
 }
 
 
+.form__submit__contents
+{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
 
+}
 
 
 /* Video */
