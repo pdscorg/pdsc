@@ -918,6 +918,81 @@ section.courses .owl-carousel button.active {
 
 }
 
+.heading
+{
+    font-family: "helvetica-bold", sans-serif;
+    font-size: 60pt;
+    padding:100pt 0 100pt 0;
+    /* padding: 0 20pt 0 20pt; */
+    color: rgb(230,230,230);
+    text-align: center;
+    /* border: 2px solid white; */
+    
+}
+
+
+
+
+.shoulder
+{
+    height: 215pt;
+    width: 194pt;
+    background-color: rgb(50,50,50);
+    margin-top: -70pt;
+    border-radius: 35pt;
+    padding-top: 60pt;
+    filter:drop-shadow(2px 3px 10px rgb(34, 34, 34));
+    
+}
+.shoulder p
+{
+    font-size: 10pt;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(150, 150, 150);
+}
+.shoulder .name
+{
+    color: rgb(230,230,230);
+    font-size: 18pt;
+    /* border: 2px solid white; */
+}
+.shoulder .position
+{
+    color: rgb(55, 164, 242);
+    font-size: 16pt;
+    margin: 15pt 0 15pt 0;
+    
+}
+
+.row
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100pt;
+}
+.person img
+{
+  height: 141pt;
+  width:  141pt;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  border: 6px solid rgb(55, 164, 242);
+  /* display: inline; */
+  box-shadow: 0 0 20px #202020;
+  margin-bottom: 25px;
+
+}
+
+.hr-two
+{
+    width: 152pt;
+    margin-top: 10pt;
+    background-color: rgb(150, 150, 150);
+
+}
+
 
 /* Video */
 
