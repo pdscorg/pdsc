@@ -959,7 +959,7 @@ section.courses .owl-carousel button.active {
 }
 .shoulder .position
 {
-    color: rgb(55, 164, 242);
+    color: #43ac6e;
     font-size: 16pt;
     margin: 15pt 0 15pt 0;
     
@@ -978,7 +978,7 @@ section.courses .owl-carousel button.active {
   border-radius: 50%;
   position: relative;
   z-index: 1;
-  border: 6px solid rgb(55, 164, 242);
+  border: 6px solid #43ac6e;
   /* display: inline; */
   box-shadow: 0 0 20px #202020;
   margin-bottom: 25px;
