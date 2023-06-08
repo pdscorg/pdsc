@@ -16,7 +16,7 @@ body {
 /* Basic */
 
 a {
-	color: #43ac6e ;
+	color: #44aa70 ;
     text-decoration: none;
 }
 
@@ -39,14 +39,14 @@ p {
 
 .section-heading {
     text-align: center;
-	border-top:2px solid #43ac6e ;
+	border-top:2px solid #44aa70 ;
     margin-bottom: 70px;
 }
 
 .section-heading h2:before {
     width: 1px;
     height: 100px;
-    background-color: #43ac6e ;
+    background-color: #44aa70 ;
     position: absolute;
     top: -102px;
     content: '';
@@ -63,7 +63,7 @@ p {
     letter-spacing: 0.5px;
     display: inline-block;
     padding: 15px 20px;
-    border: 2px solid #43ac6e ;
+    border: 2px solid #44aa70 ;
 }
 
 
@@ -75,7 +75,7 @@ p {
 }
 
 .main-button a {
-    background-color: #43ac6e ;
+    background-color: #44aa70 ;
 	border-radius:7px;
     color: #fff;
     font-size: 13px;
@@ -138,7 +138,7 @@ a.menu-link { display: none; }
   }
   nav[role="navigation"] li:hover a,
   nav[role="navigation"] li.active a {
-      color: #43ac6e ;
+      color: #44aa70 ;
   }
   
   @media screen and (min-width: 951px) {
@@ -279,13 +279,13 @@ a.menu-link { display: none; }
 }
 
 .main-menu li .sub-menu li a:hover {
-    color: #43ac6e ;
+    color: #44aa70 ;
     border: none;
 }
 
 .main-nav li:hover a,
 .main-nav li.active a {
-    border: 2px solid #43ac6e ;
+    border: 2px solid #44aa70 ;
     border-radius:7px;
 }
 
@@ -434,7 +434,7 @@ section.features .col-4 {
 }
 
 .features-content:hover {
-    background-color: #43ac6e ;
+    background-color: #44aa70 ;
     box-shadow: 0px 0px 30px rgba(0,0,0,0.5);
 }
 
@@ -591,22 +591,22 @@ section.why-us {
 #tabs ul .ui-tabs-active {
 }
 #tabs ul .ui-tabs-active a {
-  color: #43ac6e ;
+  color: #44aa70 ;
 }
 #tabs ul .ui-tabs-active a:after {
-  background-color: #43ac6e ;
+  background-color: #44aa70 ;
   width: 15px;
   height: 15px;
 }
 #tabs ul .ui-tabs-active a:before {
-  border-color: #43ac6e ;
+  border-color: #44aa70 ;
 }
 #tabs h4 {
     margin-top: 60px;
     font-size: 32px;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #43ac6e ;
+    color: #44aa70 ;
     margin-bottom: 30px;
 }
 
@@ -807,7 +807,7 @@ section.coming-soon form input::placeholder { color: #fff; }
 section.coming-soon form button {
     margin-top: 10px;
 	border-radius:7px;
-    background-color: #43ac6e ;
+    background-color: #44aa70 ;
     color: #fff;
     font-size: 13px;
     text-transform: uppercase;
@@ -861,7 +861,7 @@ section.courses .item .down-content p {
 
 section.courses .item .down-content img {
     width: 40px;
-    border: 2px solid #43ac6e ;
+    border: 2px solid #44aa70 ;
     border-radius: 50%;
     text-align: left;
     display: inline-block;
@@ -874,7 +874,7 @@ section.courses .item .down-content .text-button-pay {
 }
 
 section.courses .item .down-content .text-button-pay a {
-    color: #43ac6e ;
+    color: #44aa70 ;
     font-size: 13px;
 }
 
@@ -905,7 +905,7 @@ section.courses .owl-carousel button.owl-dot {
     outline: none;
 }
 section.courses .owl-carousel button.active {
-    background-color: #43ac6e ;
+    background-color: #44aa70 ;
 }
 
 
@@ -959,7 +959,7 @@ section.courses .owl-carousel button.active {
 }
 .shoulder .position
 {
-    color: #43ac6e;
+    color: #44aa70;
     font-size: 16pt;
     margin: 15pt 0 15pt 0;
     
@@ -978,7 +978,7 @@ section.courses .owl-carousel button.active {
   border-radius: 50%;
   position: relative;
   z-index: 1;
-  border: 6px solid #43ac6e;
+  border: 6px solid #44aa70;
   /* display: inline; */
   box-shadow: 0 0 20px #202020;
   margin-bottom: 25px;
@@ -1002,7 +1002,7 @@ section.video {
     background-size: cover;
     background-color: rgb(51,51,51);
     padding: 120px 0px;
-	border-top:2px solid #43ac6e ;
+	border-top:2px solid #44aa70 ;
 }
 
 section.video .left-content {
@@ -1026,7 +1026,7 @@ section.video .left-content h4 {
 }
 section.video .left-content h4 em {
     font-style: normal;
-    color: #43ac6e ;
+    color: #44aa70 ;
 }
 
 section.video .left-content .main-button {
@@ -1071,7 +1071,7 @@ section.video .left-content .main-button {
   margin-top: -32.5px;
   margin-left: -32.5px;
   border-radius: 50%;
-  background-color: #43ac6e ;
+  background-color: #44aa70 ;
   z-index: 10;
 }
 .video-item figure a:after {
@@ -1563,7 +1563,7 @@ section.contact {
    
     background-repeat: no-repeat;
     background-size: cover;
-	border-top:2px solid #43ac6e ;
+	border-top:2px solid #44aa70 ;
     background-color: #2D2D2D;
     padding-bottom: 120px;
 }
@@ -1629,7 +1629,7 @@ section.contact form textarea::placeholder { color: #fff; }
 section.contact form textarea::placeholder { color: #fff; }
 
 section.contact form button {
-    background-color: #43ac6e ;
+    background-color: #44aa70 ;
     color: #fff;
 	border-radius:7px;
     font-size: 13px;
@@ -1655,7 +1655,7 @@ footer p {
     padding: 25px 0px;
     color: #fff;
     font-size: 13px;
-	border-top:2px solid #43ac6e ;;
+	border-top:2px solid #44aa70 ;;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 0.5px;
@@ -1717,7 +1717,7 @@ footer p a:hover {
   text-transform: capitalize;
   letter-spacing: 0.5px;
   margin-top: 30px;
-  border: 2px solid #43ac6e ;
+  border: 2px solid #44aa70 ;
   display: inline-block;
   position: relative;
   padding: 15px 20px;
