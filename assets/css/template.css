@@ -12,7 +12,6 @@ https://templatemo.com/tm-557-grad-school
 body {
     font-family: 'Montserrat', sans-serif;
 }
-
 /* Basic */
 
 a {
@@ -303,16 +302,18 @@ a.menu-link { display: none; }
 {
 	display: flex;
     height: 60px;
-    width: 60%;
-	
+    width: 90%;
     align-items: center;
+    justify-content: flex-start;
 
 }
 
 .scroll-to-section a 
 {
 	margin-left:10px;
-	min-width:100px;
+	min-width:110px;
+  max-width: 165px;
+  text-align: center;
 }
     
 .main-banner {
@@ -379,7 +380,6 @@ a.menu-link { display: none; }
 }
 
 @media screen and (max-width: 1180px) {
-
   .main-banner .caption h6 {
     font-weight: 500;
   }
@@ -390,7 +390,6 @@ a.menu-link { display: none; }
 
 }
 @media screen and (max-width: 767px) {
-
   .main-banner .caption h6 {
     font-weight: 500;
   }
@@ -518,8 +517,8 @@ section.features .col-4 {
 section.why-us {
    
     background-color: #2D2D2D;
-   
-    padding-bottom: 100px;
+    padding: 1px 0;
+    margin-bottom: -80px;
 	
 }
 
@@ -621,6 +620,19 @@ section.why-us {
     text-align: left;
 }
 
+/* Events Section */
+
+section.events {
+    background-color: #2D2D2D;
+    padding: 10px 0 100px 0;
+}
+
+.container .card{
+  border: 2px solid #44aa70;
+  background-color: #2D2D2D;
+  color: #fff;
+}
+
 @media screen and (max-width: 767px) {
   
   .tabs-content {
@@ -649,7 +661,7 @@ section.why-us {
 section.coming-soon {
     
     background-color: #2D2D2D;
-    padding: 120px 0px;
+    padding: 1px 0;
     margin-left: -20px;
 }
 
@@ -772,7 +784,7 @@ section.coming-soon .top-content h6 em {
 
 section.coming-soon form {
     background-color: rgba(250,250,250,0.1);
-    padding: 60px 40px;
+    padding: 60px 40px 1px 40px;
 	border-bottom-left-radius: 7px;
 	border-bottom-right-radius: 7px;
     width: 100%;
@@ -921,15 +933,12 @@ section.courses .owl-carousel button.active {
 .heading
 {
     font-family: "helvetica-bold", sans-serif;
-    font-size: 60pt;
-    padding:100pt 0 100pt 0;
-    /* padding: 0 20pt 0 20pt; */
+    font-size: 6rem;
+    padding:120px 0 100px 0;
     color: rgb(230,230,230);
     text-align: center;
-    /* border: 2px solid white; */
-    
+    cursor: default;
 }
-
 
 
 
@@ -965,12 +974,25 @@ section.courses .owl-carousel button.active {
     
 }
 
-.row
+section.why-us .row
 {
     display: flex;
     justify-content: space-around;
     margin-bottom: 100pt;
 }
+section.coming-soon .row
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100pt;
+}
+section.contact .row
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100pt;
+}
+
 .person img
 {
   height: 141pt;
@@ -1565,21 +1587,23 @@ section.contact {
     background-size: cover;
 	border-top:2px solid #44aa70 ;
     background-color: #2D2D2D;
-    padding-bottom: 120px;
+    padding-bottom: 1px;
 }
 
 
 section.contact form {
     background-color: rgba(250,250,250,0.1);
 	border-radius: 7px;
-    padding: 30px;
+    padding: 30px 30px 1px 30px;
     width: 100%;
+    height: 500px;
 }
 
 
 @media screen and (max-width: 767px) {  
   section.contact form {
-      margin-bottom: 30px;
+      margin-bottom: 40px;
+      height: 650px;
   }
 }
 
@@ -1648,11 +1672,12 @@ section.contact form button {
 footer {
     background-color: #2d2d2d;
     text-align: center;
+    margin-bottom: -133px;
 }
 
 footer p {
     margin-bottom: 0px;
-    padding: 25px 0px;
+    padding: 20px;
     color: #fff;
     font-size: 13px;
 	border-top:2px solid #44aa70 ;;
@@ -1702,8 +1727,16 @@ footer p a:hover {
     overflow-y: auto;
   }
 }
+@media screen and (max-width: 1200px) {
+  .heading{
+    font-size: 4rem;
+  }
+}
 
 @media screen and (max-width: 767px) {
+  .heading {
+      font-size: 2.5rem;
+    }
   footer p {
     font-size: 12px;
     font-weight: 600;
@@ -1716,7 +1749,7 @@ footer p a:hover {
   text-align: center;
   text-transform: capitalize;
   letter-spacing: 0.5px;
-  margin-top: 30px;
+  margin-top: 150px;
   border: 2px solid #44aa70 ;
   display: inline-block;
   position: relative;
@@ -1743,6 +1776,7 @@ footer p a:hover {
   font-size: 16px;
   padding-left: 8px;
   padding-right: 8px;
+  cursor: pointer;
 }
 
 #direct_contact_section .lead-card a {
