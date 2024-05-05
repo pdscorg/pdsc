@@ -1,252 +1,445 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="PDSC" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="PDSC">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <title>PDSC</title>
+    <link rel="icon" href="assets/images/HeadOnlyAlt.png" type="image/x-icon" />
 
-    <title> PDSC</title>
-    <link rel="icon" href="assets/images/HeadOnlyAlt.png" type="image/x-icon">
-    
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/template.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/lightbox.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/template.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <link rel="stylesheet" href="assets/css/lightbox.css" />
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
   </head>
 
-<body>
+  <body>
+    <!--header-->
+    <header class="main-header clearfix" role="header">
+      <div class="logo">
+        <img src="assets/images/Alt.png" alt="logo" width="110" height="35" />
+      </div>
+      <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+      <nav id="menu" class="main-nav" role="navigation">
+        <ul class="main-menu">
+          <li><a href="#section1">Home</a></li>
+          <li class="has-submenu">
+            <a href="#section2">About Us</a>
+            <ul class="sub-menu">
+              <li><a href="#section2">Who we are?</a></li>
+              <li><a href="#section3">Become Member</a></li>
+              <!-- <li><a href="#">Our Team</a></li>-->
+            </ul>
+          </li>
+          <li><a href="#section4">Programs</a></li>
+          <!-- <li><a href="#section5">Video</a></li> -->
+          <li><a href="#section6">Contact</a></li>
+          <!--<li><a href="http://blog.pdscorg.com">Blogs</a></li>-->
+        </ul>
+      </nav>
+    </header>
 
-   
-  <!--header-->
-  <header class="main-header clearfix" role="header">
-    <div class="logo">
-      <img src="assets/images/Alt.png" alt="logo" width="110" height="35"></div>
-    </div>
-    <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
-    <nav id="menu" class="main-nav" role="navigation">
-      <ul class="main-menu">
-        <li><a href="#section1">Home</a></li>
-        <li class="has-submenu"><a href="#section2">About Us</a>
-          <ul class="sub-menu">
-            <li><a href="#section2">Who we are?</a></li>
-            <li><a href="#section3">Become Member</a></li>
-           <!-- <li><a href="#">Our Team</a></li>-->
-          </ul>
-        </li>
-        <li><a href="#section4">Programs</a></li>
-        <!-- <li><a href="#section5">Video</a></li> -->
-        <li><a href="#section6">Contact</a></li>
-        <!--<li><a href="http://blog.pdscorg.com">Blogs</a></li>-->
-      </ul>
-    </nav>
-  </header>
-
-  <!-- ***** Main Banner Area Start ***** -->
-  <section class="section main-banner" id="top" data-section="section1">
+    <!-- ***** Main Banner Area Start ***** -->
+    <section class="section main-banner" id="top" data-section="section1">
       <video autoplay muted loop id="bg-video">
-          <source src="assets/images/pdsc_intro.mp4" type="video/mp4" />
+        <source src="assets/images/pdsc_intro.mp4" type="video/mp4" />
       </video>
 
       <div class="video-overlay header-text">
-          <div class="caption">
-              
-              <h2><em>Plan, Design<br>Solve & Create</em></h2>
-              <div class="main-button">
+        <div class="caption">
+          <h2>
+            <em>Plan, Design<br />Solve & Create</em>
+          </h2>
+          <div class="main-button">
+            <div class="scroll-to-section">
+              <a href="#section2">Discover more</a>
+              <a href="#section3">Apply Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ***** Main Banner Area End ***** -->
+
+    <section class="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-12">
+            <div class="features-post">
+              <div class="features-content">
+                <div class="content-show">
+                  <h4><i class="fa fa-pencil"></i>All Courses</h4>
+                </div>
+                <div class="content-hide">
+                  <p>
+                    As we assure plan , design, solve and create in our name. We
+                    are offering various courses, bootcamps and workshops free
+                  </p>
+                  <p class="hidden-sm">
+                    we just not help peoples on Python, JavaScript, Django, Data
+                    Science, Machine Learning, Designing, but also on other
+                    related topics..
+                  </p>
                   <div class="scroll-to-section">
-                    <a href="#section2">Discover more</a>
-                    <a href="#section3">Apply Now</a></div>
+                    <a href="#section2">More Info.</a>
+                  </div>
+                </div>
               </div>
-          </div>
-      </div>
-  </section>
-  <!-- ***** Main Banner Area End ***** -->
-
-
-  <section class="features">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-12">
-          <div class="features-post">
-            <div class="features-content">
-              <div class="content-show">
-                <h4><i class="fa fa-pencil"></i>All Courses</h4>
-              </div>
-              <div class="content-hide">
-                <p>As we assure plan , design, solve and create in our name. We are offering various courses, bootcamps and workshops free</p>
-                <p class="hidden-sm">we just not help peoples on Python, JavaScript, Django, Data Science, Machine Learning, Designing, but also on other related topics..</p>
-                <div class="scroll-to-section"><a href="#section2">More Info.</a></div>
-            </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-12">
-          <div class="features-post second-features">
-            <div class="features-content">
-              <div class="content-show">
-                <h4><i class="fa fa-graduation-cap"></i>tutorials</h4>
+          <div class="col-lg-4 col-12">
+            <div class="features-post second-features">
+              <div class="features-content">
+                <div class="content-show">
+                  <h4><i class="fa fa-graduation-cap"></i>tutorials</h4>
+                </div>
+                <div class="content-hide">
+                  <p>
+                    Soon we are going to post out tutorials on different topics
+                    for now you can checkout our youtube tutorials
+                  </p>
+                  <p class="hidden-sm">
+                    we will be publishing and making tutorails in every common
+                    factors as possible.
+                  </p>
+                  <div class="scroll-to-section">
+                    <a href="#section5">Details</a>
+                  </div>
+                </div>
               </div>
-              <div class="content-hide">
-                <p>Soon we are going to post out tutorials on different topics for now you can checkout our youtube tutorials</p>
-                <p class="hidden-sm">we will be publishing and making tutorails in every common factors as possible.</p>
-                <div class="scroll-to-section"><a href="#section5">Details</a></div>
-            </div>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-12">
-          <div class="features-post third-features">
-            <div class="features-content">
-              <div class="content-show">
-                <h4><i class="fa fa-book"></i>Motivations</h4>
+          <div class="col-lg-4 col-12">
+            <div class="features-post third-features">
+              <div class="features-content">
+                <div class="content-show">
+                  <h4><i class="fa fa-book"></i>Motivations</h4>
+                </div>
+                <div class="content-hide">
+                  <p>
+                    Success is the sum of small efforts repeated. Try using your
+                    effort..we are here to support you.
+                  </p>
+                  <p class="hidden-sm">
+                    Stay motivated, stay Learning. We are being expert soon
+                  </p>
+                  <div class="scroll-to-section">
+                    <a href="#section5">Read More</a>
+                  </div>
+                </div>
               </div>
-              <div class="content-hide">
-                <p>Success is the sum of small efforts repeated. Try using your effort..we are here to support you.</p>
-                <p class="hidden-sm">Stay motivated, stay Learning. We are being expert soon</p>
-                <div class="scroll-to-section"><a href="#section5">Read More</a></div>
-            </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section why-us" data-section="section2">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-heading">
-            <h2>Who we are and what we do</h2>
+    <section class="section why-us" data-section="section2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Who we are and what we do</h2>
+            </div>
           </div>
-        </div>
-        <div class="col-md-12">
-          <div id='tabs'>
-            <ul>
-              <li><a href='#tabs-1'>Non profit organisation</a></li>
-              <li><a href='#tabs-2'>Technology Trainer</a></li>
-              <li><a href='#tabs-3'>Quality Learning platform</a></li>
-            </ul>
-            <section class='tabs-content'>
-              <article id='tabs-1'>
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="assets/images/choose-us-image-01.png" alt="">
+          <div class="col-md-12">
+            <div id="tabs">
+              <ul>
+                <li><a href="#tabs-1">Non profit organisation</a></li>
+                <li><a href="#tabs-2">Technology Trainer</a></li>
+                <li><a href="#tabs-3">Quality Learning platform</a></li>
+              </ul>
+              <section class="tabs-content">
+                <article id="tabs-1">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="assets/images/choose-us-image-01.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <h4>Non profit organisation</h4>
+                      <p>
+                        We are an organization aiming to bring real-world
+                        experience to the plates of students; trying to bridge
+                        the gap between college and the market through the means
+                        of events such as workshops, hack-a-thons, and much
+                        more.<br />Excited to be a part of it?<br />We are too,
+                        to take you in on a ride filled with opportunities from
+                        developing leadership to other skills.
+                      </p>
+                    </div>
                   </div>
-                  <div class="col-md-6">
-                    <h4>Non profit organisation</h4>
-                    <p>We are an organization aiming to bring real-world experience to the plates of students; trying to bridge the gap between college and the market through the means of events such as workshops, hack-a-thons, and much more.<br>Excited to be a part of it?<br>We are too, to take you in on a ride filled with opportunities from developing leadership to other skills.  </p>
+                </article>
+                <article id="tabs-2">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="assets/images/choose-us-image-02.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <h4>Technology Trainer</h4>
+                      <p>
+                        Technical skills being crucial in this era, we are
+                        focused on providing quality IT workshops for all
+                        students across the country and the globe.
+                      </p>
+                      <p>
+                        We believe workshops, bootcamps, not only improves
+                        skills but also develops strength on students to believe
+                        in change and team works.
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </article>
-              <article id='tabs-2'>
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="assets/images/choose-us-image-02.png" alt="">
+                </article>
+                <article id="tabs-3">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="assets/images/choose-us-image-03.png" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                      <h4>Quality Learning platform</h4>
+                      <p>
+                        With the aim of making industrial based education
+                        accessible to everyone, we are fully dedicated on
+                        organizing workshops, events, bringing on real projects.
+                        This makes PDSC a quality learning platform for everyone
+                        everywhere.
+                        <a rel="nofollow" href="#" target="_parent"
+                          >Checkout for workshops</a
+                        >
+                        being attempted soon.
+                      </p>
+                    </div>
                   </div>
-                  <div class="col-md-6">
-                    <h4>Technology Trainer</h4>
-                    <p> Technical skills being crucial in this era, we are focused on providing quality IT workshops for all students across the country and the globe.</p> 
-                    <p>We believe workshops, bootcamps, not only improves skills but also develops strength on students to believe in change and team works.</p>
-                  </div>
-                </div>
-              </article>
-              <article id='tabs-3'>
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="assets/images/choose-us-image-03.png" alt="">
-                  </div>
-                  <div class="col-md-6">
-                    <h4>Quality Learning platform</h4>
-                    <p>With the aim of making industrial based education accessible to everyone, we are fully dedicated on organizing workshops, events, bringing on real projects. This makes PDSC a quality learning platform for everyone everywhere. 
-                      <a rel="nofollow" href="#" target="_parent">Checkout for workshops</a> being attempted soon.</p>
-                  </div>
-                </div>
-              </article>
-            </section>
+                </article>
+              </section>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- Events section -->
-	<!-- To be added -->
+    </section>
+    <!-- Events section -->
+    <!-- To be added -->
 
-  <!-- join our team section -->
-  	<section class="section coming-soon" data-section="section3">
+    <!-- join our team section -->
+    <section class="section coming-soon" data-section="section3">
       <div class="section-heading">
         <h2>Join our Enthusiastic Team</h2>
       </div>
       <div class="continer centerIt">
         <div>
-          <h4 style="text-align: center; padding-left: 8px; padding-right: 8px">Wanna be a part of it?<em style = "color:#44aa70;"> Apply when application is open</em></h4>
+          <h4 style="text-align: center; padding-left: 8px; padding-right: 8px">
+            Wanna be a part of it?<em style="color: #44aa70">
+              Apply when application is open</em
+            >
+          </h4>
         </div>
       </div>
-	    <div class="container">
-	      <div class="row">
+      <div class="container">
+        <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="right-content">
               <div class="top-content">
-                <h6>Register and be a part of<em style="color: #44aa70;"> the journey</em> where you learn leadership & other skills</h6>
+                <h6>
+                  Register and be a part of<em style="color: #44aa70">
+                    the journey</em
+                  >
+                  where you learn leadership & other skills
+                </h6>
               </div>
-              <form action="https://script.google.com/macros/s/AKfycbwCYTBtQBYHfG8u0Mq1sUyl5M6mBoM9_XhmVNMRlATRtt6KpYmf844UXYY1M7T2KqrZ/exec" method="POST">
+              <form
+                action="https://script.google.com/macros/s/AKfycbwCYTBtQBYHfG8u0Mq1sUyl5M6mBoM9_XhmVNMRlATRtt6KpYmf844UXYY1M7T2KqrZ/exec"
+                method="POST"
+              >
                 <div class="row">
                   <div class="col-lg-6 col-sm-12 col-md-6 col-xs-12">
                     <fieldset>
-                      <input name="Name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
+                      <input
+                        name="Name"
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        placeholder="Your Name"
+                        required=""
+                      />
                     </fieldset>
                     <fieldset>
-                      <input name="Email" type="text" class="form-control" id="email" placeholder="Your Email" required="">
+                      <input
+                        name="Email"
+                        type="text"
+                        class="form-control"
+                        id="email"
+                        placeholder="Your Email"
+                        required=""
+                      />
                     </fieldset>
                     <fieldset>
-                      <input name="Phone Number" type="text" class="form-control" id="phone-number" placeholder="Your Phone Number"
-                        required="">
+                      <input
+                        name="Phone Number"
+                        type="text"
+                        class="form-control"
+                        id="phone-number"
+                        placeholder="Your Phone Number"
+                        required=""
+                      />
                     </fieldset>
                   </div>
                   <div class="col-lg-6 col-sm-12 col-md-6 col-xs-12">
                     <fieldset>
-                      <select id="choice1" name="Department Choice 1" style="width: 100%; height: 40px; background-color: rgba(250,250,250,0.1); border-radius: 7px; border: none; outline: none; color: #fff; font-size: 13px; margin-bottom: 20px; letter-spacing: 0.5px;">
-                        <option value="choice_first" style="color: #00080c;">Department Choice First</option>
-                        <option value="Human Resource Team" style="color: #00080c;">Human Resource Team</option>
-                        <option value="Creative Team" style="color: #00080c;">Creative Team</option>
-                        <option value="Event Management Team" style="color: #00080c;">Event Management Team</option>
-                        
-                        <option value="Innovation Team" style="color: #00080c;">Innovation Team</option>
-                        <option value="Social Media and Marketing Team" style="color: #00080c;">Social Media and Marketing Team</option>
+                      <select
+                        id="choice1"
+                        name="Department Choice 1"
+                        style="
+                          width: 100%;
+                          height: 40px;
+                          background-color: rgba(250, 250, 250, 0.1);
+                          border-radius: 7px;
+                          border: none;
+                          outline: none;
+                          color: #fff;
+                          font-size: 13px;
+                          margin-bottom: 20px;
+                          letter-spacing: 0.5px;
+                        "
+                      >
+                        <option value="choice_first" style="color: #00080c">
+                          Department Choice First
+                        </option>
+                        <option
+                          value="Human Resource Team"
+                          style="color: #00080c"
+                        >
+                          Human Resource Team
+                        </option>
+                        <option value="Creative Team" style="color: #00080c">
+                          Creative Team
+                        </option>
+                        <option
+                          value="Event Management Team"
+                          style="color: #00080c"
+                        >
+                          Event Management Team
+                        </option>
+
+                        <option value="Innovation Team" style="color: #00080c">
+                          Innovation Team
+                        </option>
+                        <option
+                          value="Social Media and Marketing Team"
+                          style="color: #00080c"
+                        >
+                          Social Media and Marketing Team
+                        </option>
                       </select>
                     </fieldset>
                     <fieldset>
-                      <select id="choice2" name="Department Choice 2"
-                        style="width: 100%; height: 40px; background-color: rgba(250,250,250,0.1); border-radius: 7px; border: none; outline: none; color: #fff; font-size: 13px; margin-bottom: 20px; letter-spacing: 0.5px;">
-                        <option value="choice_second" style="color: #00080c;">Department Choice Second</option>
-                        <option value="Human Resource Team" style="color: #00080c;">Human Resource Team</option>
-                        <option value="Creative Team" style="color: #00080c;">Creative Team</option>
-                        <option value="Event Management Team" style="color: #00080c;">Event Management Team</option>
-                       
-                        <option value="Innovation Team" style="color: #00080c;">Innovation Team</option>
-                        <option value="Social Media and Marketing Team" style="color: #00080c;">Social Media and Marketing Team</option>
+                      <select
+                        id="choice2"
+                        name="Department Choice 2"
+                        style="
+                          width: 100%;
+                          height: 40px;
+                          background-color: rgba(250, 250, 250, 0.1);
+                          border-radius: 7px;
+                          border: none;
+                          outline: none;
+                          color: #fff;
+                          font-size: 13px;
+                          margin-bottom: 20px;
+                          letter-spacing: 0.5px;
+                        "
+                      >
+                        <option value="choice_second" style="color: #00080c">
+                          Department Choice Second
+                        </option>
+                        <option
+                          value="Human Resource Team"
+                          style="color: #00080c"
+                        >
+                          Human Resource Team
+                        </option>
+                        <option value="Creative Team" style="color: #00080c">
+                          Creative Team
+                        </option>
+                        <option
+                          value="Event Management Team"
+                          style="color: #00080c"
+                        >
+                          Event Management Team
+                        </option>
+
+                        <option value="Innovation Team" style="color: #00080c">
+                          Innovation Team
+                        </option>
+                        <option
+                          value="Social Media and Marketing Team"
+                          style="color: #00080c"
+                        >
+                          Social Media and Marketing Team
+                        </option>
                       </select>
                     </fieldset>
                     <fieldset>
-                      <select id="choice3" name="Department Choice 3"
-                        style="width: 100%; height: 40px; background-color: rgba(250,250,250,0.1); border-radius: 7px; border: none; outline: none; color: #fff; font-size: 13px; margin-bottom: 20px; letter-spacing: 0.5px;">
-                        <option value="" style="color: #00080c;">Department Choice Third</option>
-                        <option value="Human Resource Team" style="color: #00080c;">Human Resource Team</option>
-                        <option value="Creative Team" style="color: #00080c;">Creative Team</option>
-                        <option value="Event Management Team" style="color: #00080c;">Event Management Team</option>
-                        
-                        <option value="Innovation Team" style="color: #00080c;">Innovation Team</option>
-                        <option value="Social Media and Marketing Team" style="color: #00080c;">Social Media and Marketing Team</option>
+                      <select
+                        id="choice3"
+                        name="Department Choice 3"
+                        style="
+                          width: 100%;
+                          height: 40px;
+                          background-color: rgba(250, 250, 250, 0.1);
+                          border-radius: 7px;
+                          border: none;
+                          outline: none;
+                          color: #fff;
+                          font-size: 13px;
+                          margin-bottom: 20px;
+                          letter-spacing: 0.5px;
+                        "
+                      >
+                        <option value="" style="color: #00080c">
+                          Department Choice Third
+                        </option>
+                        <option
+                          value="Human Resource Team"
+                          style="color: #00080c"
+                        >
+                          Human Resource Team
+                        </option>
+                        <option value="Creative Team" style="color: #00080c">
+                          Creative Team
+                        </option>
+                        <option
+                          value="Event Management Team"
+                          style="color: #00080c"
+                        >
+                          Event Management Team
+                        </option>
+
+                        <option value="Innovation Team" style="color: #00080c">
+                          Innovation Team
+                        </option>
+                        <option
+                          value="Social Media and Marketing Team"
+                          style="color: #00080c"
+                        >
+                          Social Media and Marketing Team
+                        </option>
                       </select>
                     </fieldset>
                   </div>
@@ -254,17 +447,44 @@
                 <div class="row">
                   <div class="col-lg-6 col-sm-12 col-md-6 col-xs-12">
                     <fieldset>
-                      <input name="College" type="text" class="form-control" id="college" placeholder="College Name" required="">
+                      <input
+                        name="College"
+                        type="text"
+                        class="form-control"
+                        id="college"
+                        placeholder="College Name"
+                        required=""
+                      />
                     </fieldset>
                   </div>
                   <div class="col-lg-6 col-sm-12 col-md-6 col-xs-12">
                     <fieldset>
-                      <select id="year" name="Year"
-                        style="width: 100%; height: 40px; background-color: rgba(250,250,250,0.1); border-radius: 0px; border: none; outline: none; color: #fff; font-size: 13px; margin-bottom: 20px; letter-spacing: 0.5px;" required="">
-                        <option value="" style="color: #00080c;">Choose your Year</option>
-			<option value="1st Year" style="color: #00080c;">1st Year</option>
-                        <option value="2nd year" style="color: #00080c;">2nd Year</option>
-              
+                      <select
+                        id="year"
+                        name="Year"
+                        style="
+                          width: 100%;
+                          height: 40px;
+                          background-color: rgba(250, 250, 250, 0.1);
+                          border-radius: 0px;
+                          border: none;
+                          outline: none;
+                          color: #fff;
+                          font-size: 13px;
+                          margin-bottom: 20px;
+                          letter-spacing: 0.5px;
+                        "
+                        required=""
+                      >
+                        <option value="" style="color: #00080c">
+                          Choose your Year
+                        </option>
+                        <option value="1st Year" style="color: #00080c">
+                          1st Year
+                        </option>
+                        <option value="2nd year" style="color: #00080c">
+                          2nd Year
+                        </option>
                       </select>
                     </fieldset>
                   </div>
@@ -272,290 +492,380 @@
                 <div class="row">
                   <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
                     <fieldset>
-                      <input name="Why Join Us?" type="text" class="form-control" id="why-join-us" placeholder="Why Join Us?" required="">
+                      <input
+                        name="Why Join Us?"
+                        type="text"
+                        class="form-control"
+                        id="why-join-us"
+                        placeholder="Why Join Us?"
+                        required=""
+                      />
                     </fieldset>
                   </div>
                   <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
-                    <fieldset class = "form__submit__contents">
-			    <strong style = "color:white; text-align:center";> Application for the year 2023-2024 has been closed</strong>
-                     	    <button type="submit" id="form-submit" class="button">SUBMIT</button>
+                    <fieldset class="form__submit__contents">
+                      <strong style="color: white; text-align: center" ;>
+                        Application for the year 2023-2024 has been
+                        closed</strong
+                      >
+                      <button type="submit" id="form-submit" class="button">
+                        SUBMIT
+                      </button>
                     </fieldset>
                   </div>
                 </div>
               </form>
             </div>
           </div>
-	      </div>
-	    </div>
-	  </section>  
-
-  <section class="section video" data-section="section5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 align-self-center">
-          <div class="left-content">
-            <span>our presentation is for you</span>
-            <h4>Watch the records of past <em>Bootcamps organized </em> by PDSC</h4>
-		  <p>Wondering about the workshops we did?. Click on the link below and watch it in our official YouTube channel.. </p>
-            <div class="main-button"><a rel="nofollow" href="https://www.youtube.com/channel/UCtBAL5IGsN6Hyk_deE2BQOw" target="_parent">Go to Youtube</a></div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <article class="video-item">
-            <div class="video-caption">
-              <h4>Python Basics| PDSC Bootcamp Highlight</h4>
-            </div>
-            <figure>
-              <a href="https://https://www.youtube.com/watch?v=Y-PGgjsdpLs" class="play"><img src="assets/images/Python_logo.png"></a>
-            </figure>
-          </article>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section contact" data-section="section6">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-heading">
-            <h2>Let’s Keep In Touch</h2>
-          </div>
-        </div>
-        <div class="col-md-6">
-                            
-<form action="https://formspree.io/f/mjvlkjbe" method="POST">
-            <div class="row">
-              <div class="col-md-6">
-                  <fieldset>
-                    <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
-                  </fieldset>
-                </div>
-                <div class="col-md-6">
-                  <fieldset>
-                    <input name="email" type="text" class="form-control" id="email" placeholder="Your Email" required="">
-                  </fieldset>
-                </div>
-		<div class="col-md-6">
-                  <fieldset>
-                    <input name="number" type="text" class="form-control" id="number" placeholder="Phone Number" required="">
-                  </fieldset>
-                </div>
-                <div class="col-md-6">
-                  <fieldset>
-                    <input name="join" type="text" class="form-control" id="join" placeholder="Why join us?" required="">
-                  </fieldset>
-                </div>
-              <div class="col-md-12">
-                <fieldset>
-                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
-                </fieldset>
-              </div>
-              <div class="col-md-12">
-                <fieldset>
-                  <button type="submit" id="form-submit" class="button">Send Message Now</button>
-                </fieldset>
+    <section class="section video" data-section="section5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center">
+            <div class="left-content">
+              <span>our presentation is for you</span>
+              <h4>
+                Watch the records of past <em>Bootcamps organized </em> by PDSC
+              </h4>
+              <p>
+                Wondering about the workshops we did?. Click on the link below
+                and watch it in our official YouTube channel..
+              </p>
+              <div class="main-button">
+                <a
+                  rel="nofollow"
+                  href="https://www.youtube.com/channel/UCtBAL5IGsN6Hyk_deE2BQOw"
+                  target="_parent"
+                  >Go to Youtube</a
+                >
               </div>
             </div>
-          </form>
+          </div>
+          <div class="col-md-6">
+            <article class="video-item">
+              <div class="video-caption">
+                <h4>Python Basics| PDSC Bootcamp Highlight</h4>
+              </div>
+              <figure>
+                <a
+                  href="https://https://www.youtube.com/watch?v=Y-PGgjsdpLs"
+                  class="play"
+                  ><img src="assets/images/Python_logo.png"
+                /></a>
+              </figure>
+            </article>
+          </div>
         </div>
-        <div class="col-md-6">
-          <div id="map">
-           <iframe src="https://maps.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7066.329710702196!2d85.31832183796249!3d27.681299219534612!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x951b3c8ac733e3ec!2sIOE%2C%20Pulchowk%20Campus!5e0!3m2!1sen!2snp!4v1628866973382!5m2!1sen!2snp" width="100%" height="422px" frameborder="0" style="border:0" allowfullscreen></iframe>
-	   </div>
-        </div>
-	<div style="text-align: center;" id="direct_contact_section" class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-            <h4>Reach out directly to our I.O.E Pulchowk Campus Leads</h4>
-             <div class="content3">
-                <p class = "heading">The Executive Team</p>
-                <!-- <hr id="first-hr"> -->
-              <div class="row">
-                    <div class="person">
-                      <img src = "assets\images\krishant_t.jpg">
-                        <div class="shoulder">
-                            <p class="name">Krishant Timilsina</p>
-                            <p class="position">Coordinator</p>
-                            <hr class = "hr-two">
-                            <p>Bachelor in Computer Engineering</p>
-                            <p>Pulchowk Campus</p>
-                            <p>Batch 2078 BS</p>
-                        </div>
-                    </div>
+      </div>
+    </section>
 
-                    <div class="person">
-                      <img src="assets\images\Bindu3.png" alt="person1">
-                      <div class="shoulder">
-                          <p class="name">Bindu Paudel</p>
-                          <p class="position">Secretary</p>
-                          <hr class = "hr-two">
-                          <p>Bachelor in Computer Engineering</p>
-                          <p>Pulchowk Campus</p>
-                          <p>Batch 2078 BS</p>
-                      </div>
-                  </div>
-                                      <div class="person">
-                        <img src="assets\images\Raunak4.jpg" alt="person1">
-                        <div class="shoulder">
-                            <p class="name">Raunak Shrestha</p>
-                            <p class="position">Finance Manager</p>
-                            <hr class = "hr-two">
-                            <p>Bachelor in Electrical Engineering</p>
-                            <p>Pulchowk Campus</p>
-                            <p>Batch 2079 BS</p>
-                        </div>
-                    </div>
-              </div>
-               
-    
+    <section class="section contact" data-section="section6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Let’s Keep In Touch</h2>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <form action="https://formspree.io/f/mjvlkjbe" method="POST">
               <div class="row">
-                   
-                    <div class="person">
-                    <img src="assets\images\darshan_p2.png" alt="person1">
-                    <div class="shoulder">
-                        <p class="name">Darshan Poudel</p>
-                        <p class="position">Innovation Manager</p>
-                        <hr class = "hr-two">
-                        <p>Bachelor in Computer Engineering</p>
-                        <p>Pulchowk Campus</p>
-                        <p>Batch 2079 BS</p>
-                    </div>
+                <div class="col-md-6">
+                  <fieldset>
+                    <input
+                      name="name"
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      placeholder="Your Name"
+                      required=""
+                    />
+                  </fieldset>
                 </div>
-                
-                                  <div class="person">
-                        <img src="assets\images\Narayan.jpeg" alt="person1">
-                        <div class="shoulder">
-                            <p class="name">Narayan Adhikari</p>
-                            <p class="position">Event Manager</p>
-                            <hr class = "hr-two">
-                            <p>Bachelor in Civil Engineering</p>
-                            <p>Pulchowk Campus</p>
-                            <p>Batch 2079 BS</p>
-                        </div>
-                    </div>
+                <div class="col-md-6">
+                  <fieldset>
+                    <input
+                      name="email"
+                      type="text"
+                      class="form-control"
+                      id="email"
+                      placeholder="Your Email"
+                      required=""
+                    />
+                  </fieldset>
+                </div>
+                <div class="col-md-6">
+                  <fieldset>
+                    <input
+                      name="number"
+                      type="text"
+                      class="form-control"
+                      id="number"
+                      placeholder="Phone Number"
+                      required=""
+                    />
+                  </fieldset>
+                </div>
+                <div class="col-md-6">
+                  <fieldset>
+                    <input
+                      name="join"
+                      type="text"
+                      class="form-control"
+                      id="join"
+                      placeholder="Why join us?"
+                      required=""
+                    />
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
+                    <textarea
+                      name="message"
+                      rows="6"
+                      class="form-control"
+                      id="message"
+                      placeholder="Your message..."
+                      required=""
+                    ></textarea>
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
+                    <button type="submit" id="form-submit" class="button">
+                      Send Message Now
+                    </button>
+                  </fieldset>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6">
+            <div id="map">
+              <iframe
+                src="https://maps.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7066.329710702196!2d85.31832183796249!3d27.681299219534612!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x951b3c8ac733e3ec!2sIOE%2C%20Pulchowk%20Campus!5e0!3m2!1sen!2snp!4v1628866973382!5m2!1sen!2snp"
+                width="100%"
+                height="422px"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div
+            style="text-align: center"
+            id="direct_contact_section"
+            class="col-md-12 col-lg-12 col-sm-12 col-xs-12"
+          >
+            <h4>Reach out directly to our I.O.E Pulchowk Campus Leads</h4>
+            <div class="content3">
+              <p class="heading">The Executive Team</p>
+              <!-- <hr id="first-hr"> -->
+              <div class="row">
                 <div class="person">
-                    <img src="assets\images\Aman2.jpg" alt="person1">
-                    <div class="shoulder">
-                        <p class="name">Aman Patel</p>
-                        <p class="position">Creative Lead</p>
-                        <hr class = "hr-two">
-                        <p>Bachelor in Computer Engineering</p>
-                        <p>Pulchowk Campus</p>
-                        <p>Batch 2079 BS</p>
-                    </div>
+                  <img src="assets\images\krishant_t.jpg" />
+                  <div class="shoulder">
+                    <p class="name">Krishant Timilsina</p>
+                    <p class="position">Coordinator</p>
+                    <hr class="hr-two" />
+                    <p>Bachelor in Computer Engineering</p>
+                    <p>Pulchowk Campus</p>
+                    <p>Batch 2078 BS</p>
+                  </div>
+                </div>
+
+                <div class="person">
+                  <img src="assets\images\Bindu3.png" alt="person1" />
+                  <div class="shoulder">
+                    <p class="name">Bindu Paudel</p>
+                    <p class="position">Secretary</p>
+                    <hr class="hr-two" />
+                    <p>Bachelor in Computer Engineering</p>
+                    <p>Pulchowk Campus</p>
+                    <p>Batch 2078 BS</p>
+                  </div>
+                </div>
+                <div class="person">
+                  <img src="assets\images\Raunak4.jpg" alt="person1" />
+                  <div class="shoulder">
+                    <p class="name">Raunak Shrestha</p>
+                    <p class="position">Finance Manager</p>
+                    <hr class="hr-two" />
+                    <p>Bachelor in Electrical Engineering</p>
+                    <p>Pulchowk Campus</p>
+                    <p>Batch 2079 BS</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="person">
+                  <img src="assets\images\darshan_p2.png" alt="person1" />
+                  <div class="shoulder">
+                    <p class="name">Darshan Poudel</p>
+                    <p class="position">Innovation Manager</p>
+                    <hr class="hr-two" />
+                    <p>Bachelor in Computer Engineering</p>
+                    <p>Pulchowk Campus</p>
+                    <p>Batch 2079 BS</p>
+                  </div>
+                </div>
+
+                <div class="person">
+                  <img src="assets\images\Narayan.jpeg" alt="person1" />
+                  <div class="shoulder">
+                    <p class="name">Narayan Adhikari</p>
+                    <p class="position">Event Manager</p>
+                    <hr class="hr-two" />
+                    <p>Bachelor in Civil Engineering</p>
+                    <p>Pulchowk Campus</p>
+                    <p>Batch 2079 BS</p>
+                  </div>
+                </div>
+                <div class="person">
+                  <img src="assets\images\Aman2.jpg" alt="person1" />
+                  <div class="shoulder">
+                    <p class="name">Aman Patel</p>
+                    <p class="position">Creative Lead</p>
+                    <hr class="hr-two" />
+                    <p>Bachelor in Computer Engineering</p>
+                    <p>Pulchowk Campus</p>
+                    <p>Batch 2079 BS</p>
+                  </div>
                 </div>
               </div>
               <div class="row">
-                    <div class="person">
-                  <img src="assets\images\Prakash.jpg" alt="person1">
+                <div class="person">
+                  <img src="assets\images\Prakash.jpg" alt="person1" />
                   <div class="shoulder">
                     <p class="name">Prakash Mahato</p>
                     <p class="position">HR Manager</p>
-                    <hr class = "hr-two">
+                    <hr class="hr-two" />
                     <p>Bachelor in Electronics Engineering</p>
                     <p>Pulchowk Campus</p>
                     <p>Batch 2078 BS</p>
                   </div>
                 </div>
-                   
-                    <div class="person">
-                        <img src="assets\images\Samrat5.jpg" alt="person1">
-                        <div class="shoulder">
-                            <p class="name">Samrat Manandhar</p>
-                            <p class="position">Marketing Manager</p>
-                            <hr class = "hr-two">
-                            <p>Bachelor in Electrical Engineering</p>
-                            <p>Pulchowk Campus</p>
-                            <p>Batch 2079 BS</p>
-                        </div>
-                    </div>
+
+                <div class="person">
+                  <img src="assets\images\Samrat5.jpg" alt="person1" />
+                  <div class="shoulder">
+                    <p class="name">Samrat Manandhar</p>
+                    <p class="position">Marketing Manager</p>
+                    <hr class="hr-two" />
+                    <p>Bachelor in Electrical Engineering</p>
+                    <p>Pulchowk Campus</p>
+                    <p>Batch 2079 BS</p>
+                  </div>
+                </div>
               </div>
-    
-                
             </div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer>
-    <div class="container">
-      
-      <style>
-        /* social media shortcuts */
-.social-menu {
-	display: flex;
-	list-style-type: none;
-}
- 
-.social-menu i {
-	color: #fff;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	font-size: 25px;
-	margin-right: 10px;
-	transition: all 0.2s ease-in-out;
-	display: flex;
-	justify-content: center;
-}
+    <footer>
+      <div class="container">
+        <style>
+          /* social media shortcuts */
+          .social-menu {
+            display: flex;
+            list-style-type: none;
+          }
 
-.social-menu i:before {
-	display: flex;
-	flex-flow: row nowrap;
-	align-items: center;
-}
+          .social-menu i {
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            font-size: 25px;
+            margin-right: 10px;
+            transition: all 0.2s ease-in-out;
+            display: flex;
+            justify-content: center;
+          }
 
-.social-menu a {
-	text-decoration: none;
-}
+          .social-menu i:before {
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+          }
 
-.fa-facebook {
-	background:#3007e7
-    
-} 
+          .social-menu a {
+            text-decoration: none;
+          }
 
-.fa-github {
-	background:#00080c
-}
+          .fa-facebook {
+            background: #3007e7;
+          }
 
-.fa-twitter {
-	background:#119beb
-}
+          .fa-github {
+            background: #00080c;
+          }
 
-.fa-instagram {
-	background:#9440b6
-}
+          .fa-twitter {
+            background: #119beb;
+          }
 
-.fa-youtube {
-	background:#c4302b
-}
+          .fa-instagram {
+            background: #9440b6;
+          }
 
-.social-menu i:hover {
-	opacity: .7;
-	border-radius: 0;
-}
-      </style>
-      
-      <ul class="social-menu p-3">
-        <li><a href="https://facebook.com/pdsc.nepal"><i class="fab fa-facebook"></i></a></li>
-        <li><a href="https://github.com/pdscorg"><i class="fab fa-github"></i></a></li>
-        <li><a href="https://twitter.com/NepalPdsc"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="https://instagram.com/pdsc.nepal"><i class="fab fa-instagram"></i> </a></li>
-        <li><a href="https://www.youtube.com/channel/UCtBAL5IGsN6Hyk_deE2BQOw"><i class="fab fa-youtube"></i> </a></li>
-    </ul>
-      
-      <div class="row">
-        <div class="col-md-12">
-          <p><i class="fa fa-copyright"></i> 2021-All rights reserved | PDSC Nepal  
-          
-          </p>
+          .fa-youtube {
+            background: #c4302b;
+          }
+
+          .social-menu i:hover {
+            opacity: 0.7;
+            border-radius: 0;
+          }
+        </style>
+
+        <ul class="social-menu p-3">
+          <li>
+            <a href="https://facebook.com/pdsc.nepal"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/pdscorg"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/NepalPdsc"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://instagram.com/pdsc.nepal"
+              ><i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCtBAL5IGsN6Hyk_deE2BQOw"
+              ><i class="fab fa-youtube"></i>
+            </a>
+          </li>
+        </ul>
+
+        <div class="row">
+          <div class="col-md-12">
+            <p>
+              <i class="fa fa-copyright"></i> 2021-All rights reserved | PDSC
+              Nepal
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
@@ -567,54 +877,58 @@
     <script src="assets/js/slick-slider.js"></script>
     <script src="assets/js/custom.js"></script>
     <script>
-        //according to loftblog tut
-        $('.nav li:first').addClass('active');
+      //according to loftblog tut
+      $(".nav li:first").addClass("active");
 
-        var showSection = function showSection(section, isAnimate) {
-          var
-          direction = section.replace(/#/, ''),
-          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+      var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+          reqSection = $(".section").filter(
+            '[data-section="' + direction + '"]'
+          ),
           reqSectionPos = reqSection.offset().top - 0;
 
-          if (isAnimate) {
-            $('body, html').animate({
-              scrollTop: reqSectionPos },
-            800);
-          } else {
-            $('body, html').scrollTop(reqSectionPos);
-          }
+        if (isAnimate) {
+          $("body, html").animate(
+            {
+              scrollTop: reqSectionPos,
+            },
+            800
+          );
+        } else {
+          $("body, html").scrollTop(reqSectionPos);
+        }
+      };
 
-        };
-
-        var checkSection = function checkSection() {
-          $('.section').each(function () {
-            var
-            $this = $(this),
+      var checkSection = function checkSection() {
+        $(".section").each(function () {
+          var $this = $(this),
             topEdge = $this.offset().top - 80,
             bottomEdge = topEdge + $this.height(),
             wScroll = $(window).scrollTop();
-            if (topEdge < wScroll && bottomEdge > wScroll) {
-              var
-              currentId = $this.data('section'),
-              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
-              reqLink.closest('li').addClass('active').
-              siblings().removeClass('active');
-            }
-          });
-        };
-
-        $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
-          if($(e.target).hasClass('external')) {
-            return;
+          if (topEdge < wScroll && bottomEdge > wScroll) {
+            var currentId = $this.data("section"),
+              reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+            reqLink
+              .closest("li")
+              .addClass("active")
+              .siblings()
+              .removeClass("active");
           }
-          //e.preventDefault();
-          $('#menu').removeClass('active');
-          showSection($(this).attr('href'), true);
         });
+      };
 
-        $(window).scroll(function () {
-          checkSection();
-        });
+      $(".main-menu, .scroll-to-section").on("click", "a", function (e) {
+        if ($(e.target).hasClass("external")) {
+          return;
+        }
+        //e.preventDefault();
+        $("#menu").removeClass("active");
+        showSection($(this).attr("href"), true);
+      });
+
+      $(window).scroll(function () {
+        checkSection();
+      });
     </script>
-</body>
+  </body>
 </html>
